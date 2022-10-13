@@ -1,12 +1,12 @@
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
-import { Food } from 'src/pages/Food/Food';
 // ---Components
+import { DummyPage } from 'src/cUtils/pages/DummyPage/DummyPage';
 
 /**
- * Renderea la página "Food"
+ * Ruta de la página "DummyPage"
  */
 export default component$(() => {
-  return <Food />
+  return <DummyPage />
 });
 

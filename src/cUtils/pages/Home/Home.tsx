@@ -8,7 +8,7 @@ import { component$ } from '@builder.io/qwik';
 export const Home = component$(() => {
   return (
     <div>
-      Home page para template de Qwik
+      Hi i'm a clean template of Qwik
     </div>
   );
 });

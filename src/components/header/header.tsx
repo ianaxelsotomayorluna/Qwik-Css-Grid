@@ -13,19 +13,7 @@ export default component$(() => {
       </a>
       <ul>
         <li>
-          <a href="/firstComponent"> First Component</a>
-        </li>
-        <li>
-          <a href="/about"> About </a>
-        </li>
-        <li>
-          <a href="/food"> Food </a>
-        </li>
-        <li>
-          <a href="/watchTutor"> Watchtutor </a>
-        </li>
-        <li>
-          <a href="/dummyRoot"> Dummy Root </a>
+          <a href="/dummyRoute"> Dummy Route</a>
         </li>
       </ul>
     </header>

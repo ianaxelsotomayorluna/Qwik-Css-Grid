@@ -1,11 +1,16 @@
 // ---Dependencies
 import { component$ } from "@builder.io/qwik";
+// ---Components
 import DummyComponent from "src/components/dummyComponent";
 
-export default component$(() => {
+/**
+ * DummyPage Component: Renderea una página estática
+ * @return {Component<{}>} Qwik component
+ */
+export const DummyPage = component$(() => {
   return (
     <div>
-        hi i am a Dummy Root wit a Dummy Component
+        Hi i'm a Dummy Root wit a Dummy Component
         <br />
         trye me!!!
         <DummyComponent/>
