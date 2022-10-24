@@ -1,12 +1,11 @@
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
 // ---Components
-import { Home } from 'src/pages/Home/Home';
+import { Positions } from '../../pages/Positions/Positions';
 
 /**
- * Renderea la página "Home"
+ * Ruta de la página "DummyPage"
  */
 export default component$(() => {
-  return <Home />
+  return <Positions />
 });
-

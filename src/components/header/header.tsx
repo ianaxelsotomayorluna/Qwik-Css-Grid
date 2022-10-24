@@ -15,6 +15,15 @@ export default component$(() => {
         <li>
           <a href="/dummyRoute"> Dummy Route</a>
         </li>
+        <li>
+          <a href="/alignmentRoute">alignment</a>
+        </li>
+        <li>
+          <a href="/autoFillRoute">Auto Fill</a>
+        </li>
+        <li>
+          <a href="/positionsRoute">Positions</a>
+        </li>
       </ul>
     </header>
   );

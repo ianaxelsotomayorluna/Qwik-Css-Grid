@@ -1,12 +1,11 @@
 // ---Dependencies
 import { component$ } from '@builder.io/qwik';
 // ---Components
-import { DummyPage } from 'src/pages/DummyPage/DummyPage';
+import { AutoFillAutoFit } from '../../pages/AutoFillAutoFit/AutoFillAutoFit';
 
 /**
  * Ruta de la página "DummyPage"
  */
 export default component$(() => {
-  return <DummyPage />
+  return <AutoFillAutoFit />
 });
-

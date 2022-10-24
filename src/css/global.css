@@ -16,21 +16,173 @@
   --qwik-dark: #000000;
   --qwik-light: #ffffff;
 }
-
+p {
+  text-align: center;
+}
 body {
   font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
+ 
   background-color: var(--qwik-dark-grey);
   color:var(--qwik-light)
 }
 
 main {
-  margin: 0 auto;
   background-color: var(--qwik-light-grey);
   border-radius: 5px;
-  box-shadow: 0px 0px 130px -50px var(--qwik-light-purple);
+}
+h1 {
+  text-align: center;
 }
 /*----------------- Pages -----------------*/
+/*----------------- Positions -----------------*/
+.Positions > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.Positions {
+  text-align: center;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.Positions .navbar {
+  background-color: #c97e1b;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.Positions .sidebar {
+  background-color: rgb(71, 5, 16);
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.Positions .content{
+  background-color: rgb(11, 65, 4);
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.Positions .footer {
+  background-color: #713fc2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.Positions .nothing {
+  background-color: #ffffff1a;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.Positions .nothing2 {
+  background-color: #ffffff1a;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+@media (max-width: 720px) {
+ 
+  .Positions .sidebar {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+  .Positions .content{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+}
+/*-------------ElementAlignment---------*/
+.cuartos > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.cuartos{
+  margin: auto;
+  text-align: center;
+   text-align: center;
+   display: grid;
+   grid-gap: 1px;
+   grid-template-columns: 25% 25% 25% 25%;
+   grid-template-rows: 10%;
+ }
+/*-------------TERCIA---------*/
+.tercia > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.tercia{
+  margin: auto;
+  text-align: center;
+   text-align: center;
+   display: grid;
+   grid-gap: 1px;
+   grid-template-columns: 33.3% 33.3% 33.3%;
+   grid-template-rows: 10%;
+ }
+/*-------------MITAD---------*/
+.mitad > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.mitad{
+ margin: auto;
+ text-align: center;
+  text-align: center;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns:50% 50%;
+  grid-template-rows: 10%;
+}
+/*-------------COMPLETO---------*/
+.completo > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.completo{
+ margin: auto;
+ text-align: center;
+  text-align: center;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns:100%;
+  grid-template-rows: 10%;
+}
+/*----------------AutoFillAutoFit------------------*/
+.Autofill > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.Autofill {
+  display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* auto fill va a rellenar toda nuestra fila con todas las columnas 
+    que puede llevar dentro y va a crear columna implicitas en caso de que quepan*/
+    /* auto fit rellena todo el contenedor con las columnas que 
+    tenemos disponibles*/
+}
 /*-----------------HomeCont-----------------*/
 section {
   padding: 20px;
