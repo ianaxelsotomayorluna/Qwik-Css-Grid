@@ -149,9 +149,9 @@ h1 {
  text-align: center;
   text-align: center;
   display: grid;
-  grid-gap: 1px;
+  grid-gap: 10px;
   grid-template-columns:50% 50%;
-  grid-template-rows: 10%;
+  grid-template-rows: 100%;
 }
 /*-------------COMPLETO---------*/
 .completo > div {
@@ -201,4 +201,55 @@ a:visited {
 a:hover {
   text-decoration: none;
 }
+/*-------------MITAD---------*/
+.mitad > div {
+  padding: 50px;
+  color: #fff;
+  background: #2f89fc;
+}
+.mitad{
+ margin: auto;
+ text-align: center;
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:50% 50%;
+  grid-template-rows: 100%;
+}
+/* ////////// */
+.BotzGrid2 div{
+  background: #10ac13;
+  vertical-align: bottom;
+  text-align: center;
+}
 
+.item-70{
+  display: inline-block;
+  width: calc(70% - 4px);
+  margin: 2px;
+}
+.item-20{
+  display: inline-block;
+  width: calc(20% - 4px);
+  margin: 2px;
+}
+.item-10{
+  display: inline-block;
+  width: calc(10% - 4px);
+  margin: 2px;
+}
+.item-25{
+  display: inline-block;
+  width: calc(25% - 4px);
+  margin: 2px;
+}
+.item-40{
+  display: inline-block;
+  width: calc(40% - 4px);
+  margin: 2px;
+}
+.item-60{
+  display: inline-block;
+  width: calc(60% - 4px);
+  margin: 2px;
+}

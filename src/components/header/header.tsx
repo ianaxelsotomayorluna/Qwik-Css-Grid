@@ -23,6 +23,7 @@ export default component$(() => {
         </li>
         <li>
           <a href="/positionsRoute">Positions</a>
+          <a href="/botzGrid">botzGrid</a>
         </li>
       </ul>
     </header>

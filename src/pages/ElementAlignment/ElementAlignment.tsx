@@ -14,8 +14,9 @@ export const ElementAlignment = component$(() => {
         <div>100%</div>
       </div>
        <div class="mitad">
-         <div>50%</div>
-         <div>50%</div>
+         <div>70%</div>
+         <div>500%</div>
+         <div>40%</div>
        </div>
        <div class="tercia">
         <div>33.3%</div>
@@ -23,6 +24,7 @@ export const ElementAlignment = component$(() => {
         <div>33.3%</div>
        </div>
        <div class="cuartos">
+       <div>25%</div>
        <div>25%</div>
        <div>25%</div>
        <div>25%</div>
